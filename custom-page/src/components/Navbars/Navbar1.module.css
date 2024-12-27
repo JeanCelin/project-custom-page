@@ -1,0 +1,29 @@
+.navbar1__container {
+  margin: 10px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  max-width: 600px;
+}
+
+.navbar1__list {
+  list-style: none;
+
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.navbar1__item {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.navbar1__item:hover {
+  border-bottom: 1px solid red;
+}
