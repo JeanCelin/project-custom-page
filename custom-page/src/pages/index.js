@@ -1,4 +1,4 @@
-import NavbarDefault from "@/components/Navbars/NavDefault/NavbarDefault";
+import styles from '@/styles/pages/Home.module.css'
 
 export default function Home() {
   return (
