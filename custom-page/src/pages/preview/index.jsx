@@ -1,3 +1,5 @@
+import MainDefault from "@/components/Mains/MainDefault";
+import NavbarDefault from "@/components/Navbars/NavDefault/NavbarDefault";
 import { useRouter } from "next/router";
 
 export default function PreviewPage() {
@@ -7,9 +9,8 @@ export default function PreviewPage() {
   return (
     <div>
       <h1>Preview Your Page</h1>
-      <div>{navbar && <div dangerouslySetInnerHTML={{ __html: navbar }} />}</div>
-      <div>{main && <div dangerouslySetInnerHTML={{ __html: main }} />}</div>
-      <div>{footer && <div dangerouslySetInnerHTML={{ __html: footer }} />}</div>
+      <NavbarDefault />
+      <MainDefault />
     </div>
   );
 }

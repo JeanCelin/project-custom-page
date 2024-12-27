@@ -1,0 +1,22 @@
+.main__container {
+  height: 90vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  background-image: linear-gradient(to bottom, #e85888, #be6884, #331e25);
+}
+
+.main__text {
+  width: 400px;
+  text-align: center;
+}
+
+.main__button {
+  background-color: #331e25;
+  color: white;
+  cursor: pointer;
+}
