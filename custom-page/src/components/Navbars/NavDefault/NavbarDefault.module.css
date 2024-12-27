@@ -23,10 +23,19 @@
   list-style: none;
 }
 
+.navbar__item {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.navbar__item:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  transition: ease-in 200ms;
+}
+
 @media (max-width: 800px) {
   .navbar__container {
     justify-content: center;
     gap: 30px;
   }
 }
-
