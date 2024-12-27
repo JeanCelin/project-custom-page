@@ -1,0 +1,24 @@
+.navbar__container {
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 0 20px;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 10px;
+
+  list-style: none;
+}
+
+@media (max-width: 390px) {
+  .navbar__container,
+  .navbar__list {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
