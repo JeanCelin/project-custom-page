@@ -1,0 +1,13 @@
+.footer__container {
+  background-color: rgb(19, 19, 19);
+  color: rgb(206, 205, 205);
+}
+.footer__main {
+  display: flex;
+  padding: 10px;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 20px;
+
+  text-align: center;
+}

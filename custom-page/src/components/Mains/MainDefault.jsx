@@ -6,7 +6,7 @@ export default function MainDefault() {
       <h1 className={styles.main__title}>[Title]</h1>
       <p className={styles.main__text}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus
-        commodi modi nostrum asperiores suscipit quod=.
+        commodi modi nostrum asperiores suscipit quod.
       </p>
       <button className={styles.main__button}>Button</button>
     </main>

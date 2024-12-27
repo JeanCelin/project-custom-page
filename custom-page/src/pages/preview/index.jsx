@@ -1,5 +1,6 @@
 import MainDefault from "@/components/Mains/MainDefault";
 import NavbarDefault from "@/components/Navbars/NavDefault/NavbarDefault";
+import FooterDefault from "@/components/Footers/FooterDefault/FooterDefault";
 import { useRouter } from "next/router";
 
 export default function PreviewPage() {
@@ -11,6 +12,7 @@ export default function PreviewPage() {
       <h1>Preview Your Page</h1>
       <NavbarDefault />
       <MainDefault />
+      <FooterDefault />
     </div>
   );
 }
