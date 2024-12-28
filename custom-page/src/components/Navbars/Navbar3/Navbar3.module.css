@@ -1,0 +1,28 @@
+.navbar__container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__list {
+  display: flex;
+  flex-flow: row nowrap;
+
+  list-style: none;
+  gap: 10px;
+  margin: 30px;
+}
+
+.navbar__item {
+  cursor: pointer;
+}
+
+.navbar__item:hover {
+  color: #cb4d77;
+  border-bottom: 1px solid #cb4d77;
+}
+
+@media (max-width: 380px) {
+  .navbar__list {
+    flex-flow: column;
+  }
+}

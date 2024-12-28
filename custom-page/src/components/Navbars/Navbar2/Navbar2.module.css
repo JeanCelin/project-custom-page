@@ -16,7 +16,6 @@
   position: absolute;
   list-style: none;
   display: flex;
-
   flex-flow: row wrap;
   text-align: center;
 }
