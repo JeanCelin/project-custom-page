@@ -1,0 +1,40 @@
+.main__container {
+  background-color: #be6884;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+}
+
+.main_section_img {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main__img {
+  margin: 30px;
+  width: 90%;
+  height: 50%;
+  background-color: #a65b74;
+}
+.main__section_art {
+  flex: 1;
+  padding: 20px;
+  background-color: #e680a2;
+}
+.main__title {
+  font-size: 2em;
+  padding: 10px;
+
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.548);
+  border-radius: 10px;
+}
+.main__text {
+  padding: 20px;
+  text-align: justify;
+  text-indent: 10px;
+}
