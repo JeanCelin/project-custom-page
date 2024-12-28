@@ -8,8 +8,6 @@
   justify-content: space-between;
   flex-flow: row wrap;
   padding: 10px 20px;
-
-  background-color: #cb4d77;
 }
 .navbar__container p {
   padding: 5px;
@@ -28,8 +26,8 @@
   border: 1px solid transparent;
 }
 .navbar__item:hover {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #cb4d77;
+  border-bottom: 1px solid #cb4d77;
   transition: ease-in 200ms;
 }
 

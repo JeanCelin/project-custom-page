@@ -19,4 +19,10 @@
   background-color: #331e25;
   color: white;
   cursor: pointer;
+  border: 1px solid transparent;
+}
+.main__button:hover {
+  background-color: #e85888;
+  border: 1px solid white;
+  transition: linear 700ms;
 }
