@@ -1,0 +1,33 @@
+.navbar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar__menuBurger {
+  cursor: pointer;
+}
+.navbar__listContainer {
+  position: relative;
+  width: 200px;
+}
+
+.navbar__list {
+  position: absolute;
+  list-style: none;
+  display: flex;
+
+  flex-flow: row wrap;
+  text-align: center;
+}
+.navbar__item {
+  padding: 5px;
+  background-color: #be6884;
+  flex-basis: 200px;
+  border: 1px solid black;
+
+  cursor: pointer;
+}
+.navbar__item:hover {
+  background-color: #e35483;
+}

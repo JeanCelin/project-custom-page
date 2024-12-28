@@ -13,11 +13,11 @@ export default function Navbar1() {
   ];
 
   return (
-    <nav className={styles.navbar1__container}>
+    <nav className={styles.navbar__container}>
       <Image src={config[0].logo} height={64} width={64} alt={config[0].alt} />
-      <ul className={styles.navbar1__list}>
+      <ul className={styles.navbar__list}>
         {config[1].items.map((element, index) => (
-          <li key={index} className={styles.navbar1__item}>
+          <li key={index} className={styles.navbar__item}>
             {element.toUpperCase()}
           </li>
         ))}
