@@ -9,6 +9,7 @@ import Navbar2 from "@/components/Navbars/Navbar2/Navbar2";
 import Navbar3 from "@/components/Navbars/Navbar3/Navbar3";
 import Main1 from "@/components/Mains/Main1/Main1";
 import Main2 from "@/components/Mains/Main2/Main2";
+import Main3 from "@/components/Mains/Main3/Main3";
 
 export default function PreviewPage() {
   return (
@@ -17,7 +18,7 @@ export default function PreviewPage() {
       <div className={styles.preview__layout}>
         <section className={styles.preview__page}>
           <NavbarDefault />
-          <Main2 />
+          <Main3 />
         </section>
       </div>
 
